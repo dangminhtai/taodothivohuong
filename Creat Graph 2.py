@@ -111,7 +111,7 @@ while running:
     if rename_mode:
         # Hiển thị hộp nhập liệu cho tên mới
         rename_font = pygame.font.Font('ja-jp.ttf', 24)
-        input_label = rename_font.render("Nhập ID mới: " + input_text, True, (0, 0, 0))
+        input_label = rename_font.render("Nhập đỉnh mới: " + input_text, True, (0, 0, 0))
         screen.blit(input_label, (10, y_offset))
     
     pygame.display.flip()  # Hiển thị màn hình
